@@ -3,10 +3,10 @@
 JohtoGrassWildMons:
 
 ;Percentages:
-	;24%
-	;30%
-	;30%
-	;30%
+	;20%
+	;15%
+	;15%
+	;15%
 	;10%
 	;10%
 	;5%
@@ -14,7 +14,7 @@ JohtoGrassWildMons:
 	;4%
 	;1%
 
-	map_id R_26
+	map_id R_22
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 2, PATRAT
@@ -86,7 +86,7 @@ JohtoGrassWildMons:
 	db 4, MUNNA
 	db 5, CLEFFA
 
-	map_id R_15
+	map_id R_12
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 3, LILLIPUP
@@ -122,7 +122,7 @@ JohtoGrassWildMons:
 	db 4, RALTS
 	db 6, RALTS
 
-	map_id R_16
+	map_id R_13
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 5, PATRAT
@@ -158,7 +158,7 @@ JohtoGrassWildMons:
 	db 6, AZURILL
 	db 7, MAREEP
 
-	map_id R_19
+	map_id R_14
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 5, MAREEP
@@ -410,7 +410,7 @@ JohtoGrassWildMons:
 	db 13, ZORUA
 	db 15, ZORUA
 
-	map_id R_20
+	map_id R_16
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 16, SNUBBULL
@@ -698,7 +698,7 @@ JohtoGrassWildMons:
 	db 20, SIGILYPH
 	db 22, SIGILYPH
 
-	map_id R_23
+	map_id R_19
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 22, MARILL
@@ -734,7 +734,7 @@ JohtoGrassWildMons:
 	db 24, DUCKLETT
 	db 24, VULPIX
 
-	map_id R_24
+	map_id R_20
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 23, DUCKLETT
@@ -1202,7 +1202,7 @@ JohtoGrassWildMons:
 	db 32, SKARMORY
 	db 34, SKARMORY
 	
-	map_id R_22
+	map_id R_17
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 33, RUFFLET
@@ -1238,7 +1238,7 @@ JohtoGrassWildMons:
 	db 35, BOUFFALANT
 	db 35, AXEW
 	
-	map_id R_22
+	map_id R_18
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 33, RUFFLET
@@ -1814,7 +1814,7 @@ JohtoGrassWildMons:
 	db 40, MAGNETON
 	db 44, MAGNETON
 	
-	map_id R_10
+	map_id R_7
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 41, FLAAFFY
@@ -1850,7 +1850,7 @@ JohtoGrassWildMons:
 	db 41, AXEW
 	db 43, AXEW
 	
-	map_id R_10_NORTH
+	map_id R_7_NORTH
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 41, FLAAFFY
@@ -2066,79 +2066,79 @@ JohtoGrassWildMons:
 	db 48, GRANBULL
 	db 49, ROSELIA
 	
-	map_id R_14
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	db 49, RUFFLET
-	db 49, VULLABY
-	db 48, PINSIR
-	db 48, HERACROSS
-	db 48, AUDINO
-	db 48, EMOLGA
-	db 48, VULLABY
-	db 48, KIRLIA
-	db 50, AUDINO
-	db 50, KIRLIA
-	; day
-	db 49, RUFFLET
-	db 49, VULLABY
-	db 48, PINSIR
-	db 48, HERACROSS
-	db 48, AUDINO
-	db 48, EMOLGA
-	db 48, VULLABY
-	db 48, KIRLIA
-	db 50, AUDINO
-	db 50, KIRLIA
-	; nite
-	db 49, RUFFLET
-	db 49, VULLABY
-	db 48, PINSIR
-	db 48, HERACROSS
-	db 48, AUDINO
-	db 48, EMOLGA
-	db 48, VULLABY
-	db 48, KIRLIA
-	db 50, AUDINO
-	db 50, KIRLIA
-	
-	map_id R_13
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	db 49, PAWNIARD
-	db 49, HEATMOR
-	db 49, DURANT
-	db 49, GLIGAR
-	db 49, GOTHORITA
-	db 49, DUOSION
-	db 52, SKARMORY
-	db 50, GARBODOR
-	db 52, SCRAFTY
-	db 52, GARBODOR
-	; day
-	db 49, PAWNIARD
-	db 49, HEATMOR
-	db 49, DURANT
-	db 49, GLIGAR
-	db 49, GOTHORITA
-	db 49, DUOSION
-	db 52, SKARMORY
-	db 50, GARBODOR
-	db 52, SCRAFTY
-	db 52, GARBODOR
-	; nite
-	db 49, PAWNIARD
-	db 49, HEATMOR
-	db 49, DURANT
-	db 49, GLIGAR
-	db 49, GOTHORITA
-	db 49, DUOSION
-	db 52, SKARMORY
-	db 50, GARBODOR
-	db 52, SCRAFTY
-	db 52, GARBODOR
-	
 	map_id R_11
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 49, RUFFLET
+	db 49, VULLABY
+	db 48, PINSIR
+	db 48, HERACROSS
+	db 48, AUDINO
+	db 48, EMOLGA
+	db 48, VULLABY
+	db 48, KIRLIA
+	db 50, AUDINO
+	db 50, KIRLIA
+	; day
+	db 49, RUFFLET
+	db 49, VULLABY
+	db 48, PINSIR
+	db 48, HERACROSS
+	db 48, AUDINO
+	db 48, EMOLGA
+	db 48, VULLABY
+	db 48, KIRLIA
+	db 50, AUDINO
+	db 50, KIRLIA
+	; nite
+	db 49, RUFFLET
+	db 49, VULLABY
+	db 48, PINSIR
+	db 48, HERACROSS
+	db 48, AUDINO
+	db 48, EMOLGA
+	db 48, VULLABY
+	db 48, KIRLIA
+	db 50, AUDINO
+	db 50, KIRLIA
+	
+	map_id R_9
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 49, PAWNIARD
+	db 49, HEATMOR
+	db 49, DURANT
+	db 49, GLIGAR
+	db 49, GOTHORITA
+	db 49, DUOSION
+	db 52, SKARMORY
+	db 50, GARBODOR
+	db 52, SCRAFTY
+	db 52, GARBODOR
+	; day
+	db 49, PAWNIARD
+	db 49, HEATMOR
+	db 49, DURANT
+	db 49, GLIGAR
+	db 49, GOTHORITA
+	db 49, DUOSION
+	db 52, SKARMORY
+	db 50, GARBODOR
+	db 52, SCRAFTY
+	db 52, GARBODOR
+	; nite
+	db 49, PAWNIARD
+	db 49, HEATMOR
+	db 49, DURANT
+	db 49, GLIGAR
+	db 49, GOTHORITA
+	db 49, DUOSION
+	db 52, SKARMORY
+	db 50, GARBODOR
+	db 52, SCRAFTY
+	db 52, GARBODOR
+	
+	map_id R_8
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 49, PALPITOAD
@@ -2426,7 +2426,7 @@ JohtoGrassWildMons:
 	db 51, DRAGONAIR
 	db 51, ALTARIA
 
-	map_id R_26_EAST
+	map_id R_23_EAST
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 22, AUDINO
@@ -2462,7 +2462,7 @@ JohtoGrassWildMons:
 	db 24, FERROSEED
 	db 25, AUDINO
 
-	map_id R_26_WEST
+	map_id R_23_WEST
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 54, AUDINO
