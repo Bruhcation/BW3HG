@@ -86,7 +86,7 @@ JohtoWaterWildMons:
 	db 29, DUCKLETT
 	db 24, REMORAID
 
-	map_id R_24
+	map_id R_20
 	db 4 percent ; encounter rate
 	db 24, MARILL
 	db 29, DUCKLETT

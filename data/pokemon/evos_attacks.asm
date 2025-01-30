@@ -3973,7 +3973,7 @@ PinsirEvosAttacks:
 	db 36, CROSS_CHOP ; Storm Throw
 	db 40, SWORDS_DANCE
 	db 43, MEGAHORN 
-	db 45  DOUBLE_EDGE ; Thrash
+	db 45,  DOUBLE_EDGE ; Thrash
 	db 47, CLOSE_COMBAT ; Superpower
 	db 50, OUTRAGE ; Guillotine
 	db 0 ; no more level-up moves
