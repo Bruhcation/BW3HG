@@ -27,9 +27,9 @@ FishGroups:
 	db  85 percent + 1, TYMPOLE,   8
 	db 100 percent,     REMORAID,     6
 .Shore_Good:
-	db  35 percent,     REMORAID,   20
-	db  70 percent,     FRILLISH,     20
-	db  90 percent + 1, FRILLISH,     20
+	db  35 percent,     REMORAID,   25
+	db  70 percent,     FRILLISH,     25
+	db  90 percent + 1, FRILLISH,     25
 	db 100 percent,     time_group 0
 .Shore_Super:
 	db  40 percent,     JELLICENT,     40
@@ -42,9 +42,9 @@ FishGroups:
 	db  85 percent + 1, TYMPOLE,   10
 	db 100 percent,     CORPHISH,  10
 .Ocean_Good:
-	db  35 percent,     CORPHISH,   20
-	db  70 percent,     FRILLISH,  20
-	db  90 percent + 1, FRILLISH,   20
+	db  35 percent,     CORPHISH,   25
+	db  70 percent,     FRILLISH,  25
+	db  90 percent + 1, FRILLISH,   25
 	db 100 percent,     time_group 2
 .Ocean_Super:
 	db  40 percent,     JELLICENT,   40
@@ -57,9 +57,9 @@ FishGroups:
 	db  85 percent + 1, TYMPOLE,   10
 	db 100 percent,     MANTYKE,    10
 .Lake_Good:
-	db  35 percent,     MANTYKE,   20
-	db  70 percent,     HORSEA,    20
-	db  90 percent + 1, HORSEA,    20
+	db  35 percent,     MANTYKE,   25
+	db  70 percent,     HORSEA,    25
+	db  90 percent + 1, HORSEA,    25
 	db 100 percent,     time_group 4
 .Lake_Super:
 	db  40 percent,     HORSEA,    40
@@ -72,9 +72,9 @@ FishGroups:
 	db  85 percent + 1, TYMPOLE,   8
 	db 100 percent,     BASCULIN,    8
 .Pond_Good:
-	db  35 percent,     TYNAMO,   20
-	db  70 percent,     TYNAMO,    20
-	db  90 percent + 1, BASCULIN,    20
+	db  35 percent,     TYNAMO,   25
+	db  70 percent,     TYNAMO,    25
+	db  90 percent + 1, BASCULIN,    25
 	db 100 percent,     time_group 6
 .Pond_Super:
 	db  40 percent,     BASCULIN,    40
@@ -87,9 +87,9 @@ FishGroups:
 	db  85 percent + 1, TYNAMO,   10
 	db 100 percent,     HORSEA,   10
 .Dratini_Good:
-	db  35 percent,     HORSEA,   20
-	db  70 percent,     TYNAMO,   20
-	db  90 percent + 1, TYNAMO,   20
+	db  35 percent,     HORSEA,   25
+	db  70 percent,     TYNAMO,   25
+	db  90 percent + 1, TYNAMO,   25
 	db 100 percent,     time_group 8
 .Dratini_Super:
 	db  40 percent,     DRATINI,   40
@@ -102,9 +102,9 @@ FishGroups:
 	db  85 percent + 1, TYNAMO,   5
 	db 100 percent,     STUNFISK,   5
 .Qwilfish_Swarm_Good:
-	db  35 percent,     TYNAMO,   20
-	db  70 percent,     STUNFISK,   20
-	db  90 percent + 1, STUNFISK,   20
+	db  35 percent,     TYNAMO,   25
+	db  70 percent,     STUNFISK,   25
+	db  90 percent + 1, STUNFISK,   25
 	db 100 percent,     time_group 10
 .Qwilfish_Swarm_Super:
 	db  40 percent,     STUNFISK,   40
@@ -117,9 +117,9 @@ FishGroups:
 	db  85 percent + 1, TYNAMO,   10
 	db 100 percent,     REMORAID,   10
 .Remoraid_Swarm_Good:
-	db  35 percent,     TYNAMO,   20
-	db  70 percent,     REMORAID,   20
-	db  90 percent + 1, REMORAID,   20
+	db  35 percent,     TYNAMO,   25
+	db  70 percent,     REMORAID,   25
+	db  90 percent + 1, REMORAID,   25
 	db 100 percent,     time_group 12
 .Remoraid_Swarm_Super:
 	db  40 percent,     REMORAID,   40
@@ -132,9 +132,9 @@ FishGroups:
 	db  85 percent + 1, TYNAMO,   10
 	db 100 percent,     TYNAMO,   10
 .Gyarados_Good:
-	db  35 percent,     TYNAMO,   20
-	db  70 percent,     TYNAMO,   20
-	db  90 percent + 1, TYNAMO,   20
+	db  35 percent,     TYNAMO,   25
+	db  70 percent,     TYNAMO,   25
+	db  90 percent + 1, TYNAMO,   25
 	db 100 percent,     time_group 14
 .Gyarados_Super:
 	db  40 percent,     TYNAMO,   40
@@ -162,9 +162,9 @@ FishGroups:
 	db  85 percent + 1, TYNAMO,   10
 	db 100 percent,     DWEBBLE,     10
 .WhirlIslands_Good:
-	db  35 percent,     TYNAMO,   20
-	db  70 percent,     DWEBBLE,     20
-	db  90 percent + 1, DWEBBLE,     20
+	db  35 percent,     TYNAMO,   25
+	db  70 percent,     DWEBBLE,     25
+	db  90 percent + 1, DWEBBLE,     25
 	db 100 percent,     time_group 18
 .WhirlIslands_Super:
 	db  40 percent,     DWEBBLE,     40
@@ -179,10 +179,10 @@ FishGroups:
 	db 100 percent,     FRILLISH,  10
 .Qwilfish_NoSwarm_Good:
 .Qwilfish_Good:
-	db  35 percent,     TYNAMO,   20
-	db  70 percent,     FRILLISH,  20
-	db  90 percent + 1, FRILLISH,  20
-	db 100 percent,     time_group 20
+	db  35 percent,     TYNAMO,   25
+	db  70 percent,     FRILLISH,  25
+	db  90 percent + 1, FRILLISH,  25
+	db 100 percent,     time_group 25
 .Qwilfish_NoSwarm_Super:
 .Qwilfish_Super:
 	db  40 percent,     FRILLISH,  40
@@ -195,9 +195,9 @@ FishGroups:
 	db  85 percent + 1, TYNAMO,   10
 	db 100 percent,     TYMPOLE,    10
 .Remoraid_Good:
-	db  35 percent,     TYNAMO,   20
-	db  70 percent,     TYMPOLE,    20
-	db  90 percent + 1, TYMPOLE,    20
+	db  35 percent,     TYNAMO,   25
+	db  70 percent,     TYMPOLE,    25
+	db  90 percent + 1, TYMPOLE,    25
 	db 100 percent,     time_group 6
 .Remoraid_Super:
 	db  40 percent,     TYMPOLE,    40
@@ -207,27 +207,27 @@ FishGroups:
 
 TimeFishGroups:
 	;  day              nite
-	db STARYU,    20,  STARYU,     20 ; 0
+	db STARYU,    25,  STARYU,     25 ; 0
 	db STARYU,    40,  STARYU,     40 ; 1
-	db CORSOLA,   20,  CORSOLA,   20 ; 2
+	db CORSOLA,   25,  CORSOLA,   25 ; 2
 	db CORSOLA,   40,  CORSOLA,   40 ; 3
-	db BASCULIN,    20,  BASCULIN,    20 ; 4
+	db BASCULIN,    25,  BASCULIN,    25 ; 4
 	db STUNFISK,    40,  STUNFISK,    40 ; 5
-	db PALPITOAD,    20,  PALPITOAD,    20 ; 6
+	db PALPITOAD,    25,  PALPITOAD,    25 ; 6
 	db PALPITOAD,    40,  PALPITOAD,    40 ; 7
-	db DRATINI,    20,  DRATINI,    20 ; 8
+	db DRATINI,    25,  DRATINI,    25 ; 8
 	db EELEKTRIK,    40,  EELEKTRIK,    40 ; 9
-	db STUNFISK,   20,  STUNFISK,   20 ; 10
+	db STUNFISK,   25,  STUNFISK,   25 ; 10
 	db STUNFISK,   40,  STUNFISK,   40 ; 11
-	db REMORAID,   20,  REMORAID,   20 ; 12
+	db REMORAID,   25,  REMORAID,   25 ; 12
 	db REMORAID,   40,  REMORAID,   40 ; 13
-	db EELEKTRIK,   20,  EELEKTRIK,   20 ; 14
+	db EELEKTRIK,   25,  EELEKTRIK,   25 ; 14
 	db EELEKTRIK,   40,  EELEKTRIK,   40 ; 15
 	db DRATINI,    10,  DRATINI,    10 ; 16
 	db DRATINI,    10,  DRATINI,    10 ; 17
-	db HORSEA,     20,  HORSEA,     20 ; 18
+	db HORSEA,     25,  HORSEA,     25 ; 18
 	db HORSEA,     40,  HORSEA,     40 ; 19
-	db FRILLISH,  20,  FRILLISH,  20 ; 20
+	db FRILLISH,  25,  FRILLISH,  25 ; 25
 	db FRILLISH,  40,  FRILLISH,  40 ; 21
 	
 FishItems:

@@ -19,36 +19,36 @@ JohtoGrassWildMons:
 	; morn
 	db 2, PATRAT
 	db 2, PIDOVE
-	db 2, PURRLOIN
-	db 2, AZURILL
-	db 2, IGGLYBUFF
-	db 3, PIDOVE
 	db 3, PURRLOIN
-	db 3, PATRAT
-	db 3, IGGLYBUFF
 	db 3, AZURILL
+	db 3, IGGLYBUFF
+	db 4, PIDOVE
+	db 4, PURRLOIN
+	db 4, PATRAT
+	db 5, IGGLYBUFF
+	db 5, AZURILL
 	; day
 	db 2, PATRAT
 	db 2, PIDOVE
-	db 2, PURRLOIN
-	db 2, AZURILL
-	db 2, IGGLYBUFF
-	db 3, PIDOVE
 	db 3, PURRLOIN
-	db 3, PATRAT
-	db 3, IGGLYBUFF
 	db 3, AZURILL
+	db 3, IGGLYBUFF
+	db 4, PIDOVE
+	db 4, PURRLOIN
+	db 4, PATRAT
+	db 5, IGGLYBUFF
+	db 5, AZURILL
 	; nite
 	db 2, PATRAT
 	db 2, PIDOVE
-	db 2, PURRLOIN
-	db 2, AZURILL
-	db 2, IGGLYBUFF
-	db 3, PIDOVE
 	db 3, PURRLOIN
-	db 3, PATRAT
-	db 3, IGGLYBUFF
 	db 3, AZURILL
+	db 3, IGGLYBUFF
+	db 4, PIDOVE
+	db 4, PURRLOIN
+	db 4, PATRAT
+	db 5, IGGLYBUFF
+	db 5, AZURILL
 	
 	map_id GIANT_CHASM_1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
@@ -56,35 +56,35 @@ JohtoGrassWildMons:
 	db 2, ZUBAT
 	db 2, WOOBAT
 	db 3, WOOBAT
-	db 2, ROGGENROLA
-	db 3, ZUBAT
 	db 3, ROGGENROLA
-	db 2, MUNNA
-	db 3, CLEFFA
-	db 3, MUNNA
+	db 3, ZUBAT
+	db 4, ROGGENROLA
+	db 4, MUNNA
 	db 4, CLEFFA
+	db 4, MUNNA
+	db 5, CLEFFA
 	; day
 	db 2, ZUBAT
 	db 2, WOOBAT
 	db 3, WOOBAT
-	db 2, ROGGENROLA
-	db 3, ZUBAT
 	db 3, ROGGENROLA
-	db 2, MUNNA
-	db 3, CLEFFA
-	db 3, MUNNA
+	db 3, ZUBAT
+	db 4, ROGGENROLA
+	db 4, MUNNA
 	db 4, CLEFFA
+	db 4, MUNNA
+	db 5, CLEFFA
 	; nite
 	db 2, ZUBAT
 	db 2, WOOBAT
 	db 3, WOOBAT
-	db 2, ROGGENROLA
-	db 3, ZUBAT
 	db 3, ROGGENROLA
-	db 2, MUNNA
-	db 3, CLEFFA
-	db 3, MUNNA
+	db 3, ZUBAT
+	db 4, ROGGENROLA
+	db 4, MUNNA
 	db 4, CLEFFA
+	db 4, MUNNA
+	db 5, CLEFFA
 
 	map_id R_12
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
