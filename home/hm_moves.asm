@@ -9,11 +9,6 @@ IsHM::
 	and a
 	ret
 
-IsHMMove::
-	ld hl, .HMMoves
-	ld de, 1
-	jp IsInArray
-
 .HMMoves:
 	db CUT
 	db FLY
