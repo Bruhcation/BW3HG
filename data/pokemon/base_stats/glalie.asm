@@ -1,6 +1,6 @@
 	db GLALIE ; 183
 
-	db  80,  80,  80,  80,  80,  80
+	db  85,  85,  85,  85,  85,  85
 	;   hp  atk  def  spd  sat  sdf
 
 	db ICE, ICE ; type

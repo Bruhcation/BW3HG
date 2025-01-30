@@ -1,6 +1,6 @@
 	db FROSLASS ; 183
 
-	db  70,  80,  70, 110,  80,  70
+	db  70,  90,  70, 120,  90,  70
 	;   hp  atk  def  spd  sat  sdf
 
 	db ICE, GHOST ; type

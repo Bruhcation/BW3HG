@@ -1,6 +1,6 @@
 	db BALTOY ; 183
 
-	db  40,  40,  55,  55,  40,  70
+	db  50,  50,  65,  65,  50,  70
 	;   hp  atk  def  spd  sat  sdf
 
 	db GROUND, PSYCHIC ; type

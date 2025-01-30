@@ -1,6 +1,6 @@
 	db SERPERIOR ; 063
 
-	db  75,  75,  95, 113,  75,  95
+	db  75,  75,  95, 113,  81,  95
 	;   hp  atk  def  spd  sat  sdf
 
 	db GRASS, GRASS ; type

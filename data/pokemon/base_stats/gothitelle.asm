@@ -1,6 +1,6 @@
 	db GOTHITELLE ; 063
 
-	db  70,  55,  95,  65,  95, 110
+	db  70,  55,  95,  65, 105, 110
 	;   hp  atk  def  spd  sat  sdf
 
 	db PSYCHIC, PSYCHIC ; type

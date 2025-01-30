@@ -1,6 +1,6 @@
 	db VANILLUXE ; 063
 
-	db  71,  95,  85,  79, 110,  95
+	db  81,  65,  85,  79, 130,  95
 	;   hp  atk  def  spd  sat  sdf
 
 	db ICE, ICE ; type

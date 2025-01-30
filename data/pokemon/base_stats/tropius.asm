@@ -1,6 +1,6 @@
 	db TROPIUS ; 183
 
-	db  99,  68,  83,  51,  72,  87
+	db  120, 63,  83,  51,  83,  87
 	;   hp  atk  def  spd  sat  sdf
 
 	db GRASS, FLYING ; type

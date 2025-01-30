@@ -1,6 +1,6 @@
 	db MAWILE ; 183
 
-	db  50,  85,  85,  50,  55,  55
+	db  50,  95,  95,  50,  55,  55
 	;   hp  atk  def  spd  sat  sdf
 
 	db STEEL, FAIRY ; type

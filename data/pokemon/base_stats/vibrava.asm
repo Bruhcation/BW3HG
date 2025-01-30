@@ -1,6 +1,6 @@
 	db VIBRAVA ; 183
 
-	db  50,  70,  50,  70,  50,  50
+	db  60,  80,  60,  80,  60,  60
 	;   hp  atk  def  spd  sat  sdf
 
 	db GROUND, DRAGON ; type

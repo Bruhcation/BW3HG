@@ -1,6 +1,6 @@
 	db FLYGON ; 183
 
-	db  80, 100,  80, 100,  80,  80
+	db  80, 100,  80, 100,  90,  80
 	;   hp  atk  def  spd  sat  sdf
 
 	db GROUND, DRAGON ; type

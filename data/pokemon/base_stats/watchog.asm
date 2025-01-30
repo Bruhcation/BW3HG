@@ -1,6 +1,6 @@
 	db WATCHOG ; 063
 
-	db  60,  85,  69,  77,  60,  69
+	db  70,  85,  69,  77,  60,  69
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type

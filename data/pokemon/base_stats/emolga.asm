@@ -1,6 +1,6 @@
 	db EMOLGA ; 063
 
-	db  55,  75,  60, 103,  75,  60
+	db  55,  75,  60, 113,  75,  60
 	;   hp  atk  def  spd  sat  sdf
 
 	db ELECTRIC, FLYING ; type

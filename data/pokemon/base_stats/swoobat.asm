@@ -1,6 +1,6 @@
 	db SWOOBAT ; 063
 
-	db  67,  57,  55, 114,  77,  55
+	db  67,  57,  55, 114,  88,  55
 	;   hp  atk  def  spd  sat  sdf
 
 	db PSYCHIC, FLYING ; type

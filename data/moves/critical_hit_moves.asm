@@ -10,4 +10,5 @@ CriticalHitMoves:
 	db LEAF_BLADE
 	db AIR_CUTTER
 	db CROSS_POISON
+	db CUT
 	db -1

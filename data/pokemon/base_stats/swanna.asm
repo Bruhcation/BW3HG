@@ -1,6 +1,6 @@
 	db SWANNA ; 063
 
-	db  75,  87,  63,  98,  87,  63
+	db  75,  87,  63,  98,  97,  63
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, FLYING ; type

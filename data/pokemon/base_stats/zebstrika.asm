@@ -1,6 +1,6 @@
 	db ZEBSTRIKA ; 063
 
-	db  75, 100,  63, 116,  80,  63
+	db  75, 105,  63, 116,  80,  63
 	;   hp  atk  def  spd  sat  sdf
 
 	db ELECTRIC, ELECTRIC ; type

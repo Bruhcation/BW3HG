@@ -1,6 +1,6 @@
 	db SAMUROTT ; 063
 
-	db  95, 100,  85,  70, 108,  70
+	db  95, 100,  85,  77, 108,  70
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, WATER ; type
