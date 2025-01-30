@@ -141,7 +141,7 @@ GameCornerVendor2_LoopScript:
 	jump GameCornerPrizeVendor_CancelPurchaseScript
 
 .Klink:
-	checkcoins 1500
+	checkcoins 1000
 	ifequal HAVE_LESS, GameCornerPrizeVendor_NotEnoughCoinsScript
 	checkcode VAR_PARTYCOUNT
 	ifequal PARTY_LENGTH, GameCornerPrizeMonVendor_NoRoomForPrizeScript
@@ -150,12 +150,12 @@ GameCornerVendor2_LoopScript:
 	iffalse GameCornerPrizeVendor_CancelPurchaseScript
 	writebyte KLINK
 	special GameCornerPrizeMonCheckDex
-	givepoke KLINK, 15
+	givepoke KLINK, 25
 	takecoins 1500
 	jump GameCornerVendor2_FinishScript
 
 .Cryogonal:
-	checkcoins 2500
+	checkcoins 2000
 	ifequal HAVE_LESS, GameCornerPrizeVendor_NotEnoughCoinsScript
 	checkcode VAR_PARTYCOUNT
 	ifequal PARTY_LENGTH, GameCornerPrizeMonVendor_NoRoomForPrizeScript
@@ -164,12 +164,12 @@ GameCornerVendor2_LoopScript:
 	iffalse GameCornerPrizeVendor_CancelPurchaseScript
 	writebyte CRYOGONAL
 	special GameCornerPrizeMonCheckDex
-	givepoke CRYOGONAL, 20
-	takecoins 2500
+	givepoke CRYOGONAL, 25
+	takecoins 2000
 	jump GameCornerVendor2_FinishScript
 
 .Deino:
-	checkcoins 5000
+	checkcoins 3000
 	ifequal HAVE_LESS, GameCornerPrizeVendor_NotEnoughCoinsScript
 	checkcode VAR_PARTYCOUNT
 	ifequal PARTY_LENGTH, GameCornerPrizeMonVendor_NoRoomForPrizeScript
@@ -178,8 +178,8 @@ GameCornerVendor2_LoopScript:
 	iffalse GameCornerPrizeVendor_CancelPurchaseScript
 	writebyte DEINO
 	special GameCornerPrizeMonCheckDex
-	givepoke DEINO, 20
-	takecoins 5000
+	givepoke DEINO, 25
+	takecoins 300
 	jump GameCornerVendor2_FinishScript
 
 GameCornerVendor2MenuHeader:
@@ -191,9 +191,9 @@ GameCornerVendor2MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "KLINK     1500@"
-	db "CRYOGONAL 2500@"
-	db "DEINO     5000@"
+	db "KLINK     1000@"
+	db "CRYOGONAL 2000@"
+	db "DEINO     3000@"
 	db "CANCEL@"
 
 GameCornerVendor2_FinishScript:

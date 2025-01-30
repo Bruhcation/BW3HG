@@ -37,7 +37,7 @@ CasteliaPlazaPrizeRoomVendor1_LoopScript:
 	iffalse CasteliaPlazaPrizeRoom_CancelPurchaseScript
 	writebyte CLEFAIRY
 	special GameCornerPrizeMonCheckDex
-	givepoke CLEFAIRY, 15
+	givepoke CLEFAIRY, 20
 	takecoins 300
 	jump CasteliaPlazaPrizeRoomVendor1_FinishScript
 
@@ -51,7 +51,7 @@ CasteliaPlazaPrizeRoomVendor1_LoopScript:
 	iffalse CasteliaPlazaPrizeRoom_CancelPurchaseScript
 	writebyte BELDUM
 	special GameCornerPrizeMonCheckDex
-	givepoke BELDUM, 15
+	givepoke BELDUM, 18
 	takecoins 1000
 	jump CasteliaPlazaPrizeRoomVendor1_FinishScript
 
@@ -65,7 +65,7 @@ CasteliaPlazaPrizeRoomVendor1_LoopScript:
 	iffalse CasteliaPlazaPrizeRoom_CancelPurchaseScript
 	writebyte PINSIR
 	special GameCornerPrizeMonCheckDex
-	givepoke PINSIR, 15
+	givepoke PINSIR, 22
 	takecoins 1600
 	jump CasteliaPlazaPrizeRoomVendor1_FinishScript
 	
@@ -98,7 +98,7 @@ CasteliaPlazaPrizeRoomVendor2_LoopScript:
 	iffalse CasteliaPlazaPrizeRoom_CancelPurchaseScript
 	writebyte LITWICK
 	special GameCornerPrizeMonCheckDex
-	givepoke LITWICK, 15
+	givepoke LITWICK, 20
 	takecoins 300
 	jump CasteliaPlazaPrizeRoomVendor2_FinishScript
 
@@ -112,7 +112,7 @@ CasteliaPlazaPrizeRoomVendor2_LoopScript:
 	iffalse CasteliaPlazaPrizeRoom_CancelPurchaseScript
 	writebyte AXEW
 	special GameCornerPrizeMonCheckDex
-	givepoke AXEW, 15
+	givepoke AXEW, 20
 	takecoins 1000
 	jump CasteliaPlazaPrizeRoomVendor2_FinishScript
 
@@ -126,7 +126,7 @@ CasteliaPlazaPrizeRoomVendor2_LoopScript:
 	iffalse CasteliaPlazaPrizeRoom_CancelPurchaseScript
 	writebyte HERACROSS
 	special GameCornerPrizeMonCheckDex
-	givepoke HERACROSS, 15
+	givepoke HERACROSS, 20
 	takecoins 1600
 	jump CasteliaPlazaPrizeRoomVendor2_FinishScript
 
