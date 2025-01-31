@@ -73,7 +73,7 @@ DriftveilShelterGrannyScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke OSHAWOTT, 15
+	givepoke OSHAWOTT, 30
 	setevent EVENT_GOT_A_POKEMON_FROM_SHELTER
 	jump .GotMon
 .GiveTepig
@@ -82,7 +82,7 @@ DriftveilShelterGrannyScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke TEPIG, 15
+	givepoke TEPIG, 30
 	setevent EVENT_GOT_A_POKEMON_FROM_SHELTER
 	jump .GotMon
 .GiveSnivy
@@ -91,7 +91,7 @@ DriftveilShelterGrannyScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke SNIVY, 15
+	givepoke SNIVY, 30
 	setevent EVENT_GOT_A_POKEMON_FROM_SHELTER
 ; fallthrough
 .GotMon

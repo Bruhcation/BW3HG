@@ -33,7 +33,7 @@ CasteliaPlazaRestaurantAmanitaScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke SNIVY, 10
+	givepoke SNIVY, 15
 	setevent EVENT_GOT_A_POKEMON_FROM_AMANITA
 	jump .GotMon
 .GiveTepig
@@ -42,7 +42,7 @@ CasteliaPlazaRestaurantAmanitaScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke TEPIG, 10
+	givepoke TEPIG, 15
 	setevent EVENT_GOT_A_POKEMON_FROM_AMANITA
 	jump .GotMon
 .GiveOshawott
@@ -51,7 +51,7 @@ CasteliaPlazaRestaurantAmanitaScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke OSHAWOTT, 10
+	givepoke OSHAWOTT, 15
 	setevent EVENT_GOT_A_POKEMON_FROM_AMANITA
 ; fallthrough
 .GotMon
