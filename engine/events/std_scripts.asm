@@ -62,7 +62,7 @@ PokecenterNurseScript:
 	iftrue .day
 	checktime NITE
 	iftrue .nite
-	sjump .ok
+	jump .ok
 
 .morn
 	checkevent EVENT_WELCOMED_TO_POKECOM_CENTER
@@ -71,12 +71,11 @@ PokecenterNurseScript:
 	farwritetext NurseTakePokemonText
 	pause 40
 	closetext
-	sjump .ok
+	jump .ok
 .morn_comcenter
 	opentext
 	farwritetext NurseMornText
-	promptbutton
-	sjump .ok_first_time
+	jump .ok_first_time
 
 .day
 	checkevent EVENT_WELCOMED_TO_POKECOM_CENTER
@@ -85,12 +84,11 @@ PokecenterNurseScript:
 	farwritetext NurseTakePokemonText
 	pause 40
 	closetext
-	sjump .ok
+	jump .ok
 .day_comcenter
 	opentext
 	farwritetext NurseDayText
-	promptbutton
-	sjump .ok_first_time
+	jump .ok_first_time
 
 .nite
 	checkevent EVENT_WELCOMED_TO_POKECOM_CENTER
@@ -99,12 +97,11 @@ PokecenterNurseScript:
 	farwritetext NurseTakePokemonText
 	pause 40
 	closetext
-	sjump .ok
+	jump .ok
 .nite_comcenter
 	opentext
 	farwritetext NurseNiteText
-	promptbutton
-	sjump .ok_first_time
+	jump .ok_first_time
 .ok_first_time
 	farwritetext NurseAskHealText
 	yesorno
@@ -112,10 +109,10 @@ PokecenterNurseScript:
 	farwritetext NurseTakePokemonText
 	waitbutton
 	closetext
-	sjump .ok
+	jump .ok
 .no_heal
 	closetext
-	sjump .done
+	jump .done
 .ok
 	pause 20
 	special StubbedTrainerRankings_Healings
@@ -123,7 +120,7 @@ PokecenterNurseScript:
 	pause 10
 	special HealParty
 	playmusic MUSIC_NONE
-	setval HEALMACHINE_POKECENTER
+	writebyte HEALMACHINE_POKECENTER
 	special HealMachineAnim
 	pause 30
 	special RestartMapMusic
@@ -142,7 +139,7 @@ PokecenterNurseScript:
 	pause 20
 .donetext
 	opentext
-	farwritetext NurseReturnPokemonShortText
+	farwritetext NurseReturnPokemonText
 	pause 40
 	farwritetext NurseGoodbyeText
 	pause 40
@@ -164,7 +161,7 @@ PokecenterNurseScript:
 	waitbutton
 	closetext
 	setevent EVENT_WELCOMED_TO_POKECOM_CENTER ; only show text once
-	sjump .done
+	jump .done
 
 .pokerus
 	; already cleared earlier in the script
