@@ -56,66 +56,74 @@ StdScripts::
 	dba ScalingMartScript
 
 PokecenterNurseScript:
-; EVENT_WELCOMED_TO_POKECOM_CENTER is never set
-
-	opentext
 	checktime MORN
 	iftrue .morn
 	checktime DAY
 	iftrue .day
 	checktime NITE
 	iftrue .nite
-	jump .ok
+	sjump .ok
 
 .morn
 	checkevent EVENT_WELCOMED_TO_POKECOM_CENTER
-	iftrue .morn_comcenter
-	farwritetext NurseMornText
-	buttonsound
-	jump .ok
+	iffalse .morn_comcenter
+	opentext
+	farwritetext NurseTakePokemonText
+	pause 40
+	closetext
+	sjump .ok
 .morn_comcenter
-	farwritetext PokeComNurseMornText
-	buttonsound
-	jump .ok
+	opentext
+	farwritetext NurseMornText
+	promptbutton
+	sjump .ok_first_time
 
 .day
 	checkevent EVENT_WELCOMED_TO_POKECOM_CENTER
-	iftrue .day_comcenter
-	farwritetext NurseDayText
-	buttonsound
-	jump .ok
+	iffalse .day_comcenter
+	opentext
+	farwritetext NurseTakePokemonText
+	pause 40
+	closetext
+	sjump .ok
 .day_comcenter
-	farwritetext PokeComNurseDayText
-	buttonsound
-	jump .ok
+	opentext
+	farwritetext NurseDayText
+	promptbutton
+	sjump .ok_first_time
 
 .nite
 	checkevent EVENT_WELCOMED_TO_POKECOM_CENTER
-	iftrue .nite_comcenter
-	farwritetext NurseNiteText
-	buttonsound
-	jump .ok
+	iffalse .nite_comcenter
+	opentext
+	farwritetext NurseTakePokemonText
+	pause 40
+	closetext
+	sjump .ok
 .nite_comcenter
-	farwritetext PokeComNurseNiteText
-	buttonsound
-	jump .ok
-
-.ok
-	; only do this once
-	clearevent EVENT_WELCOMED_TO_POKECOM_CENTER
-
+	opentext
+	farwritetext NurseNiteText
+	promptbutton
+	sjump .ok_first_time
+.ok_first_time
 	farwritetext NurseAskHealText
 	yesorno
-	iffalse .done
-
+	iffalse .no_heal
 	farwritetext NurseTakePokemonText
+	waitbutton
+	closetext
+	sjump .ok
+.no_heal
+	closetext
+	sjump .done
+.ok
 	pause 20
 	special StubbedTrainerRankings_Healings
-	turnobject LAST_TALKED, UP
+	turnobject LAST_TALKED, LEFT
 	pause 10
 	special HealParty
 	playmusic MUSIC_NONE
-	writebyte HEALMACHINE_POKECENTER
+	setval HEALMACHINE_POKECENTER
 	special HealMachineAnim
 	pause 30
 	special RestartMapMusic
@@ -129,21 +137,34 @@ PokecenterNurseScript:
 	special CheckPokerus
 	iftrue .pokerus
 .no
-
-	farwritetext NurseReturnPokemonText
+	checkevent EVENT_WELCOMED_TO_POKECOM_CENTER
+	iffalse .NurseReturnPokemonText
 	pause 20
-
-.done
+.donetext
+	opentext
+	farwritetext NurseReturnPokemonShortText
+	pause 40
 	farwritetext NurseGoodbyeText
-
-	turnobject LAST_TALKED, LEFT
+	pause 40
+	closetext
+.done
+	turnobject LAST_TALKED, UP
 	pause 10
 	turnobject LAST_TALKED, DOWN
 	pause 10
+	turnobject PLAYER, DOWN
+	end
 
+.NurseReturnPokemonText
+	opentext
+	farwritetext NurseReturnPokemonText
+	waitbutton
+	pause 20
+	farwritetext NurseGoodbyeText
 	waitbutton
 	closetext
-	end
+	setevent EVENT_WELCOMED_TO_POKECOM_CENTER ; only show text once
+	sjump .done
 
 .pokerus
 	; already cleared earlier in the script
