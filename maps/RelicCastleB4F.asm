@@ -16,7 +16,7 @@ LarvestaScript:
 	pause 15
 	closetext
 	writecode VAR_BATTLETYPE, BATTLETYPE_NORMAL
-	loadwildmon LARVESTA, 30
+	loadwildmon LARVESTA, 40
 	startbattle
 	disappear RELICCASTLEB4F_LARVESTA
 	reloadmapafterbattle

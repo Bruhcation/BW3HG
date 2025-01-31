@@ -95,7 +95,7 @@ NacreneMuseumLenoraScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke TIRTOUGA, 10, NO_ITEM
+	givepoke TIRTOUGA, 33, NO_ITEM
 	writetext NacreneMuseumLeaveText
 	waitbutton
 	closetext
@@ -124,7 +124,7 @@ NacreneMuseumLenoraScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke ARCHEN, 10, NO_ITEM
+	givepoke ARCHEN, 28, NO_ITEM
 	writetext NacreneMuseumLeaveText
 	waitbutton
 	closetext

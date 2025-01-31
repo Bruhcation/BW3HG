@@ -1,6 +1,6 @@
 	db GENESIS ; 094
 
-	db 130, 115, 110, 130, 115, 110
+	db 130, 115, 100, 110, 115, 100
 	;   hp  atk  def  spd  sat  sdf
 
 	db CURSE_T, CURSE_T ; type
