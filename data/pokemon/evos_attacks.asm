@@ -149,10 +149,10 @@ EmboarEvosAttacks:
 	db 31, FIRE_PUNCH ; Heat Crash
 	db 35, HAMMER_ARM
 	db 36, FAINT_ATTACK ; Assurance
-	db 43, FLAMETHROWER
+	db 40, FLAMETHROWER
 	; Skipped Head Smash
-	db 50, ROAR
-	db 55, FLARE_BLITZ
+	db 45, ROAR
+	db 50, FLARE_BLITZ
 	db 0 ; no more level-up moves
 
 OshawottEvosAttacks:
@@ -211,11 +211,11 @@ SamurottEvosAttacks:
 	db 34, AQUA_JET
 	db 35, SLASH
 	db 39, ENCORE
-	db 46, AQUA_TAIL
+	db 43, AQUA_TAIL
 	; Removed Retaliate
-	db 51, SWORDS_DANCE
-	db 58, HYDRO_PUMP
-	db 63, MEGAHORN ; Added at Hydro Pump's original level
+	db 48, SWORDS_DANCE
+	db 50, HYDRO_PUMP
+	db 55, MEGAHORN ; Added at Hydro Pump's original level
 	db 0 ; no more level-up moves
 
 PatratEvosAttacks:
@@ -301,22 +301,23 @@ LiepardEvosAttacks:
 	db 22, THIEF ; Fake Out
 	db 26, HONE_CLAWS
 	db 31, FAINT_ATTACK ; Assurance
-	db 34, SLASH
-	db 38, CHARM ; Captivate
-	db 43, NIGHT_SLASH
-	db 47, DARK_PULSE ; Snatch
-	db 50, NASTY_PLOT
-	db 55, SUCKER_PUNCH
-	db 58, PLAY_ROUGH
+	db 32, SLASH
+	db 36, CHARM ; Captivate
+	db 39, NIGHT_SLASH
+	db 42, DARK_PULSE ; Snatch
+	db 45, NASTY_PLOT
+	db 48, SUCKER_PUNCH
+	db 52, PLAY_ROUGH
 	db 0 ; no more level-up moves
 
 PidoveEvosAttacks:
 	db EVOLVE_LEVEL, 18, TRANQUILL
 	db 0 ; no more evolutions
 	db 1, GUST
+	db 1, QUICK_ATTACK
 	db 4, GROWL
 	db 8, LEER
-	db 11, QUICK_ATTACK
+	db 11, WING_ATTACK
 	db 15, AIR_CUTTER
 	db 18, REST ; Roost
 	db 22, PROTECT ; Detect
@@ -334,42 +335,42 @@ TranquillEvosAttacks:
 	db EVOLVE_LEVEL, 32, UNFEZANT
 	db 0 ; no more evolutions
 	db 1, GUST
+	db 1, QUICK_ATTACK
 	db 4, GROWL
 	db 8, LEER
-	db 11, QUICK_ATTACK
+	db 11, WING_ATTACK
 	db 15, AIR_CUTTER
 	db 18, REST ; Roost
-	db 23, PROTECT ; Detect
-	db 27, THIEF ; Taunt
-	db 32, AIR_SLASH
-	db 36, DRILL_PECK ; Razor Wind
-	db 41, CHARM ; FeatherDance
-	db 45, SWAGGER
-	db 50, HYPER_VOICE ; Facade
+	db 22, PROTECT ; Detect
+	db 25, THIEF ; Taunt
+	db 29, AIR_SLASH
+	db 32, DRILL_PECK ; Razor Wind
+	db 36, CHARM ; FeatherDance
+	db 39, SWAGGER
+	db 43, HYPER_VOICE ; Facade
 	; Skipped Tailwind
-	db 54, BRAVE_BIRD ; Sky Attack
+	db 46, BRAVE_BIRD ; Sky Attack
 	db 0 ; no more level-up moves
 
 UnfezantEvosAttacks:
 	db 0 ; no more evolutions
+	db 0 ; no more evolutions
 	db 1, GUST
-	db 1, GROWL
-	db 1, LEER
 	db 1, QUICK_ATTACK
 	db 4, GROWL
 	db 8, LEER
-	db 11, QUICK_ATTACK
+	db 11, WING_ATTACK
 	db 15, AIR_CUTTER
 	db 18, REST ; Roost
-	db 23, PROTECT ; Detect
-	db 27, THIEF ; Taunt
-	db 32, AIR_SLASH
-	db 38, DRILL_PECK ; Razor Wind
-	db 44, CHARM ; FeatherDance
-	db 49, SWAGGER
-	db 55, HYPER_VOICE ; Facade
+	db 22, PROTECT ; Detect
+	db 25, THIEF ; Taunt
+	db 29, AIR_SLASH
+	db 32, DRILL_PECK ; Razor Wind
+	db 36, CHARM ; FeatherDance
+	db 39, SWAGGER
+	db 43, HYPER_VOICE ; Facade
 	; Skipped Tailwind
-	db 60, BRAVE_BIRD ; Sky Attack
+	db 46, BRAVE_BIRD ; Sky Attack
 	db 0 ; no more level-up moves
 
 IgglybuffEvosAttacks:
@@ -420,6 +421,13 @@ WigglytuffEvosAttacks:
 	db 1, DEFENSE_CURL
 	db 1, DISABLE
 	db 1, DOUBLESLAP
+	db 27, DOUBLE_KICK ; Wake-Up Slap
+	db 30, REST
+	db 32, BODY_SLAM
+	db 35, PLAY_ROUGH ; Gyro Ball
+	db 38, METRONOME ; Mimic
+	db 41, HYPER_VOICE
+	db 45, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 AzurillEvosAttacks:

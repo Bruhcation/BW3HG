@@ -1,6 +1,6 @@
 EvolutionMoves::
 	db NO_MOVE
-	db NO_MOVE
+	db DRAGONBREATH ; SERVINE
 	db NO_MOVE ; SERPERIOR
 	db NO_MOVE
 	db LOW_KICK
