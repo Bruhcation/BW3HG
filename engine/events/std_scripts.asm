@@ -114,15 +114,15 @@ PokecenterNurseScript:
 	closetext
 	jump .done
 .ok
-	pause 20
+	pause 10
 	special StubbedTrainerRankings_Healings
 	turnobject LAST_TALKED, LEFT
-	pause 10
+	pause 5
 	special HealParty
 	playmusic MUSIC_NONE
 	writebyte HEALMACHINE_POKECENTER
 	special HealMachineAnim
-	pause 30
+	pause 20
 	special RestartMapMusic
 	turnobject LAST_TALKED, DOWN
 	pause 10
@@ -139,7 +139,7 @@ PokecenterNurseScript:
 	pause 20
 .donetext
 	opentext
-	farwritetext NurseReturnPokemonText
+	farwritetext NurseReturnPokemonShortText
 	pause 40
 	farwritetext NurseGoodbyeText
 	pause 40

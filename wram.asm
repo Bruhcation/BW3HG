@@ -2314,7 +2314,7 @@ wScriptTextBank::
 wPriorityScriptAddr::
 wScriptTextAddr::
 	dw ; d44f
-	ds 1
+wWildBattlePanic:: db
 wWildEncounterCooldown:: db ; d452
 wXYComparePointer:: dw ; d453
 	ds 4
