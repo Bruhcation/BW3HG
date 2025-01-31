@@ -59,19 +59,27 @@ MartNimbasaBall:
 	db -1 ; end
 
 MartR4NimbasaGate:
-	db 4 ; # items
+	db 11 ; # items
 	db ENERGYPOWDER
 	db ENERGY_ROOT
 	db HEAL_POWDER
 	db REVIVAL_HERB
+	db BERRY
+	db PSNCUREBERRY
+	db PRZCUREBERRY
+	db MINT_BERRY
+	db ICE_BERRY
+	db BITTER_BERRY
+	db BURNT_BERRY
 	db -1 ; end
 
 MartMerchant1:
-	db 4 ; # items
+	db 5 ; # items
 	db SILK_SCARF
 	db MIRACLE_SEED
 	db CHARCOAL
 	db MYSTIC_WATER
+	db BERRY_JUICE
 	db -1 ; end
 
 MartMerchant2:
@@ -149,15 +157,18 @@ MartMall4:
 	db -1 ; end
 
 MartMall5:
-	db 4 ; # items
+	db 7 ; # items
 	db LEAF_STONE
 	db FIRE_STONE
 	db WATER_STONE
 	db THUNDERSTONE
+	db MIRACLEBERRY
+	db GOLD_BERRY
+	db MYSTERYBERRY
 	db -1 ; end
 
 MartMembers1:
-	db 8 ; # items
+	db 9 ; # items
 	db DAWN_STONE
 	db ELECTRIZER
 	db MAGMARIZER
@@ -166,6 +177,7 @@ MartMembers1:
 	db RAZOR_CLAW
 	db RAZOR_FANG
 	db METAL_COAT
+	db HEART_SCALE
 	db -1 ; end
 
 MartMembers2:
