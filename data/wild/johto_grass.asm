@@ -422,7 +422,7 @@ JohtoGrassWildMons:
 	db 15, MAGNEMITE
 	db 16, TRUBBISH
 	db 15, MAGNEMITE
-	db 110, MAGNEMITE
+	db 15, MAGNEMITE
 	; day
 	db 16, SNUBBULL
 	db 15, SOLOSIS
@@ -433,7 +433,7 @@ JohtoGrassWildMons:
 	db 13, MAGNEMITE
 	db 16, TRUBBISH
 	db 15, MAGNEMITE
-	db 110, MAGNEMITE
+	db 15, MAGNEMITE
 	; nite
 	db 16, SNUBBULL
 	db 15, SOLOSIS
@@ -444,7 +444,7 @@ JohtoGrassWildMons:
 	db 13, MAGNEMITE
 	db 16, TRUBBISH
 	db 15, MAGNEMITE
-	db 110, MAGNEMITE
+	db 15, MAGNEMITE
 
 	map_id R_5
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -523,17 +523,17 @@ JohtoGrassWildMons:
 	; morn
 	db 16, SANDILE
 	db 16, DARUMAKA
-	db 110, TRAPINCH
-	db 110, NUMEL
-	db 110, MARACTUS
-	db 110, GLIGAR
+	db 15, TRAPINCH
+	db 15, NUMEL
+	db 15, MARACTUS
+	db 15, GLIGAR
 	db 19, MARACTUS
 	db 18, TRAPINCH
 	db 19, SIGILYPH
 	db 18, SIGILYPH
 	; day
 	db 19, SANDILE
-	db 110, DARUMAKA
+	db 15, DARUMAKA
 	db 19, TRAPINCH
 	db 19, NUMEL
 	db 19, MARACTUS
@@ -544,7 +544,7 @@ JohtoGrassWildMons:
 	db 18, SIGILYPH
 	; nite
 	db 19, SANDILE
-	db 110, DARUMAKA
+	db 15, DARUMAKA
 	db 19, TRAPINCH
 	db 19, NUMEL
 	db 19, MARACTUS
@@ -1440,8 +1440,8 @@ JohtoGrassWildMons:
 	db 33, CUBCHOO
 	db 33, GOLBAT
 	db 36, GOLBAT
-	db 310, KOFFING
-	db 310, WEEZING
+	db 37, KOFFING
+	db 37, WEEZING
 	; nite
 	db 34, TRUBBISH
 	db 36, KOFFING
@@ -1451,8 +1451,8 @@ JohtoGrassWildMons:
 	db 33, CUBCHOO
 	db 33, GOLBAT
 	db 36, GOLBAT
-	db 310, KOFFING
-	db 310, WEEZING
+	db 37, KOFFING
+	db 37, WEEZING
 	
 	map_id RELIC_PASSAGE_FRONT
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
