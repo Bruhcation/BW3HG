@@ -236,7 +236,7 @@ AceTrainerMGroup:
 	db "COREY@", TRAINERTYPE_STAT_EXP
 	db 40, KLINK
 	dw $4C00, $4C00, $4C00, $4C00, $4C00
-	db 42, UNFEZANT
+	db 42, ALTARIA
 	dw $4C00, $4C00, $4C00, $4C00, $4C00
 	db 40, CLAYDOL
 	dw $4C00, $4C00, $4C00, $4C00, $4C00
@@ -645,7 +645,7 @@ BackpackerFGroup:
 	db "HOLLIE@", TRAINERTYPE_STAT_EXP
 	db 40, CUBCHOO
 	dw $5000, $5000, $5000, $5000, $5000
-	db 42, UNFEZANT
+	db 42, ALTARIA
 	dw $5000, $5000, $5000, $5000, $5000
 	db 44, GLACEON
 	dw $5000, $5000, $5000, $5000, $5000
@@ -1004,7 +1004,7 @@ CyclistMGroup:
 	dw $4800, $4800, $4800, $4800, $4800
 	db 39, VULLABY
 	dw $4800, $4800, $4800, $4800, $4800
-	db 42, UNFEZANT
+	db 42, BRAVIARY
 	dw $4800, $4800, $4800, $4800, $4800
 	db -1 ; end
 	
